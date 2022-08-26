@@ -5,8 +5,9 @@ const CardsContainer = () =>{
 	const cards = Array.of(4).map(card => {
 		<Card />
 });
+
 	return (
-	<div className="row p-3">
+	<div className="row mt-3 g-3">
 		<Card />
 		<Card />
 		<Card />

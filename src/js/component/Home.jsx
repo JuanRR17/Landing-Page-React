@@ -4,15 +4,15 @@ import CardsContainer from "./CardsContainer.jsx";
 import NavBar from "./NavBar.jsx";
 import Footer from "./Footer.jsx";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
 //create your first component
 const Home = () => {
+	const bodyStyle={
+		minHeight:"calc(100vh - 56px - 3em)"
+	}
     return (
-		<div>
+		<div >
 			<NavBar/>
-			 <div className="container">
+			 <div style={bodyStyle} className="container-fluid p-4">
 				<Jumbotron />
 				<CardsContainer />
 			</div>
