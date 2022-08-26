@@ -7,7 +7,7 @@ const CardsContainer = () =>{
 });
 
 	return (
-	<div className="row mt-3 g-3">
+	<div className="row d-flex flex-wrap justify-content-around mt-3 g-3">
 		<Card />
 		<Card />
 		<Card />
