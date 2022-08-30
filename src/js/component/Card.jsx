@@ -6,7 +6,8 @@ const Card = () =>{
 		boxSizing: "content-box"
 	}
 	const imgStyle={
-		height:"325px"
+		height:"325px",
+		objectFit:"cover"
 	}
 	return(
 			<div style={cardStyle} className ="card p-0">

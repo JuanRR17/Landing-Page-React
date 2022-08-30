@@ -11,8 +11,8 @@ const NavBar = ()=>{
 
         <div className="collapse navbar-collapse justify-content-end mx-5" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+            <li className="nav-item">
+              <a className="nav-link active" href="#">Home <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">About <span className="sr-only">(current)</span></a>
